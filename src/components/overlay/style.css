@@ -1,0 +1,22 @@
+.overlay {
+    position: fixed;
+
+    width: calc(100vw + 20px);
+    height: 100vh;
+
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+
+    background-color: rgba(255,255,255,0.8);
+
+    padding: 50px;
+
+    overflow: auto;
+}
+
+
+.overlay-container{
+    width: 75%;
+    padding-bottom: 100px;
+}
